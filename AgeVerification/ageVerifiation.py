@@ -1,16 +1,8 @@
-import ageEngine
-
-age = int(input("What is your age?"))
-
-#vignesh reddy kandi
-
-if ( ageEngine.IsChild(age)):
-    print("You are a child")
-
-if (ageEngine.IsAdult(age)):
-     print("You are an adult")
-
-if (ageEngine.IsPensioner(age)):
-     print("You are a pensioner")
-
-     
+#Vignesh Reddy Kandi
+def ageVerification(x):
+     if (x >= 18 and x < 70 ):
+          return "You are an adult"
+     elif (x >= 70):
+           return "You are a pensioner"
+     else:
+          return "You are a child"

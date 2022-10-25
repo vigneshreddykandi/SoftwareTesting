@@ -1,31 +1,18 @@
 
 import unittest
-import ageEngine
+from AgeVerification.ageVerifiation import AgeVerification
+import ageVerifiation
 
 class ageTesting(unittest.TestCase):
-    def test_IsChild_True(self):
-        #Arrange
-        value = int(10)
-        #Act
-        result = ageEngine.IsChild(value)
-        #Assert
-        self.assertEqual(result, True)
 
-    def test_IsAdult_True(self):
+    def test_ifAdult(self):
         #Arrange
-        value = int(25)
+        x - 18
         #Act
-        result = ageEngine.IsAdult(value)
+        recieve = ageVerification.ageVerification(x)
         #Assert
-        self.assertEqual(result, True)
+        se
 
-    def test_IsPensioner_True(self):
-        #Arrange
-        value = int(80)
-        #Act
-        result = ageEngine.IsPensioner(value)
-        #Assert
-        self.assertEqual(result, True)
 
 
     
